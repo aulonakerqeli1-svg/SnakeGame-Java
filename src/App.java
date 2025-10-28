@@ -9,12 +9,13 @@ public class App {
         frame.setResizable(false);
 
         SnakeGame snakeGame = new SnakeGame(boardSize, boardSize);
-        frame.setContentPane(snakeGame); // vendos panelin si content pane
-        frame.pack();                      // madhësia merret nga preferredSize i panelit
-        frame.setLocationRelativeTo(null); // qendro në mes të ekranit
+        frame.setContentPane(snakeGame);
+        frame.pack();                    
+        frame.setLocationRelativeTo(null); 
         frame.setVisible(true);
 
-        snakeGame.requestFocus();          // siguro fokusin tek paneli
+        snakeGame.requestFocus();          
+        
     }
 }
 
